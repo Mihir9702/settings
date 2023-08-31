@@ -1,0 +1,229 @@
+{
+  "security.workspace.trust.enabled": false,
+  "code-runner.runInTerminal": true,
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 16,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      // Scss
+      {
+        "scope": "variable.scss",
+        "settings": {
+          "foreground": "#f07178"
+        }
+      },
+      // Python
+      {
+        "scope": "meta.attribute.python",
+        "settings": {
+          "foreground": "#00B7FF"
+        }
+      },
+      {
+        "scope": "string.quoted.docstring.multi.python",
+        "settings": {
+          "foreground": "#C3E88D"
+        }
+      },
+      {
+        "scope": "entity.other.inherited-class.python",
+        "settings": {
+          "foreground": "#F78C6C"
+        }
+      },
+      {
+        "scope": "entity.name.type.class.python",
+        "settings": {
+          "foreground": "#00B7FF"
+        }
+      },
+      // Js
+      {
+        "scope": "variable.other.constant.object.js",
+        "settings": {
+          "foreground": "#f07178"
+        }
+      },
+      // ts interface key
+      {
+        "scope": "variable.other.property.ts",
+        "settings": {
+          "foreground": "#f07178"
+        }
+      },
+      {
+        "scope": "support.class.promise.ts",
+        "settings": {
+          "foreground": "#f07178"
+        }
+      },
+      {
+        "scope": "support.type.primitive.ts",
+        "settings": {
+          "foreground": "#f071ac"
+        }
+      },
+      {
+        "scope": "support.variable.property.tsx",
+        "settings": {
+          "foreground": "#eeffff"
+        }
+      },
+      // Java
+      {
+        "scope": "variable.language.wildcard.java",
+        "settings": {
+          "foreground": "#c792ea"
+        }
+      }
+    ]
+  },
+  "material-icon-theme.files.associations": {
+    "*.routes.ts": "typescript"
+  },
+
+  "bracketPairColorizer.showHorizontalScopeLine": false,
+  "bracketPairColorizer.showVerticalScopeLine": false,
+  "bracketPairColorizer.colorMode": "Consecutive",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["n"],
+      "after": ["<"]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": ["l"],
+      "after": ["$"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "snippets.showSuggestions": false,
+
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "overviewRulerColor": "white"
+        }
+      },
+      "right": {
+        "custom": {
+          "overviewRulerColor": "white"
+        }
+      }
+    }
+  },
+
+  "workbench.iconTheme": "material-icon-theme",
+  "bracketPairColorizer.depreciation-notice": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "projectManager.any.baseFolders": ["VSC"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.snippetSuggestions": "bottom",
+  "editor.formatOnPaste": true,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.visualstar": true,
+  "editor.detectIndentation": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "material-icon-theme.folders.color": "#26a69a",
+  //   "vim.vimrc.enable": true,
+  //   "vim.vimrc.path": "c:\\Users\\Mihir\\Desktop\\.vimrc",
+  "editor.formatOnSave": true,
+  "material-icon-theme.folders.theme": "specific",
+  "workbench.startupEditor": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "editor.inlineSuggest.enabled": true,
+  //   "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true,
+    "javascript": true,
+    "json": true,
+    "typescript": true,
+    "jsonc": true,
+    "typescriptreact": true,
+    "css": true,
+    "graphql": true
+  },
+  "terminal.integrated.copyOnSelection": true,
+  //   "terminal.integrated.profiles.windows": {
+  //     "PowerShell": {
+  //       "source": "PowerShell",
+  //       "icon": "terminal-powershell"
+  //     },
+  //     "Command Prompt": {
+  //       "path": [
+  //         "${env:windir}\\Sysnative\\cmd.exe",
+  //         "${env:windir}\\System32\\cmd.exe"
+  //       ],
+  //       "args": ["bash -c fish"],
+  //       "icon": "terminal-cmd"
+  //     },
+  //     "Git Bash": {
+  //       "source": "Git Bash"
+  //     }
+  //   },
+  "explorer.confirmDelete": false,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "editor.foldingMaximumRegions": 20000,
+  "git.suggestSmartCommit": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "conventionalCommits.showNewVersionNotes": false,
+  "workbench.colorTheme": "Quartz",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "git.confirmSync": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "redhat.telemetry.enabled": true,
+  "chatgpt.lang": "en",
+  "window.zoomLevel": 2,
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
