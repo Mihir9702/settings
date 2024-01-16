@@ -189,23 +189,6 @@
     "graphql": true
   },
   "terminal.integrated.copyOnSelection": true,
-  //   "terminal.integrated.profiles.windows": {
-  //     "PowerShell": {
-  //       "source": "PowerShell",
-  //       "icon": "terminal-powershell"
-  //     },
-  //     "Command Prompt": {
-  //       "path": [
-  //         "${env:windir}\\Sysnative\\cmd.exe",
-  //         "${env:windir}\\System32\\cmd.exe"
-  //       ],
-  //       "args": ["bash -c fish"],
-  //       "icon": "terminal-cmd"
-  //     },
-  //     "Git Bash": {
-  //       "source": "Git Bash"
-  //     }
-  //   },
   "explorer.confirmDelete": false,
   "terminal.integrated.shellIntegration.enabled": true,
   "editor.foldingMaximumRegions": 20000,
